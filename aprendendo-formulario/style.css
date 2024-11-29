@@ -1,0 +1,79 @@
+body{
+  margin: 0px;
+  background-color: #fafafa;
+}
+form{
+  max-width: 1200px;  
+}
+
+.inicio{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+}
+.dados{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.inicio input{
+  width: 260px;
+}
+
+label{
+  display: block;
+  margin: 30px 0px 5px 0px;
+}
+input{
+  display: block;
+  /* margin: 0px 10px; */
+  border-radius: 3px;
+  border: 2px solid black;
+  background-color: transparent;
+} 
+button{
+  display: block;
+  margin: 0px 10px 60px 0px;
+  padding: 5px 10px;
+}
+
+span{
+  color: red;
+}
+.radio{
+  display: flex;
+}
+.radio label{
+  margin: 0px;
+}
+.sexo{
+  display: flex;
+  align-items: center;
+  margin: 30px 0px 5px 10px;
+}
+.sexo label{
+  margin: 0px;
+}
+.sexo select{
+  margin-left: 10px;
+}
+.checkbox{
+  display: flex;
+}
+.checkbox label{
+  margin: 0px;
+  padding: 40px 10px;
+}
+.checkbox input{
+  margin: 40px 0px;
+}
+.checkbox2{
+  display: flex;
+}
+.checkbox2 label{
+  margin: 0px;
+  padding: 10px 0px;
+}
+.checkbox2 input{
+  margin: 10px 10px;
+}

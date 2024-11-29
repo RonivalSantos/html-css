@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="./">
+    <div class="inicio">
+      <div class="email">
+        <label for="email">Email<span>*</span></label>
+        <input type="email" id="email" name="email">
+
+        <label for="repetir-email">Repetir Email<span>*</span></label>
+        <input type="email" id="repetir-email" name="repetir-email">
+      </div>
+
+      <div class="senha">
+        <label for="senha">Crie uma senha<span>*</span></label>
+        <input type="password" id="senha" name="senha">
+
+        <label for="repetir-senha">Repetir senha<span>*</span></label>
+        <input type="password" id="repetir-senha" name="repetir-senha">
+      </div>
+    </div>
+
+    <div class="dados">
+      <div class="dados-cadastrais">
+        <p>Dados Cadastrais</p>
+        <div class="radio">
+          <input type="radio" id="pessoa-fisica" name="pessoa-fisica" />
+          <label for="pessoa-fisica">Pessoa Física</label>
+
+          <input type="radio" id="pessoa-juridica" name="pessoa-fisica" />
+          <label for="pessoa-juridica">Pessoa Jurídica</label>
+        </div>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+
+        <div class="sexo">
+          <label for="sexo">Sexo</label>
+          <select name="sexo" id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+
+        <label for="sobrenome">CPF</label>
+        <input type="number" id="cpf" name="cpf" placeholder="000.000.000-00">
+
+        <label for="sobrenome">Telefone</label>
+        <input type="number" id="telefone" name="telefone" placeholder="____-____">
+
+        <label for="sobrenome">Celular</label>
+        <input type="number" id="celular" name="celular" placeholder="() _____-____">
+
+        <label for="nascimento">Nascimento</label>
+        <input type="date" id="nascimento" name="nascimento">
+
+        <div class="checkbox">
+          <input type="checkbox" id="marketing" name="marketing" value="marketing" />
+          <label for="marketing">Desejo receber avisos de promoções.</label>
+        </div>
+        <button>Enviar</button>
+      </div>
+
+      <div class="endereco-entrega">
+        <p>Endereço de Entrega</p>
+        <label for="cep">CEP</label>
+        <input type="number" id="cep" name="cep" placeholder="() ______-__">
+        
+        <label for="rua">Rua</label>
+        <input type="text" id="rua" name="rua" />
+        
+        <label for="numero">Número</label>
+        <input type="number" id="numero" name="numero">
+
+        <div class="checkbox2">
+          <input type="checkbox" id="sem-numero" name="sem-numero" value="sem-numero" />
+          <label for="marketing">Sem número</label>
+        </div>
+
+        <label for="Complemento">Complemento</label>
+        <input type="text" id="Complemento" name="Complemento" />
+
+        <label for="referencia">Referência</label>
+        <input type="text" id="referencia" name="referencia" />
+
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" name="bairro" />
+
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" />
+
+        <label for="estado">Estado</label>
+        <input type="text" id="rua" name="rua" />
+
+      </div>
+
+
+
+    </div>
+  </form>
+</body>
+
+</html>
